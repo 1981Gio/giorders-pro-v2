@@ -26,7 +26,7 @@ function renderHome(app, data) {
                     <input id="evPrice" type="number" placeholder="Prezzo €">
                     <input id="evSeats" type="number" placeholder="Posti Bus (solo Bus)">
 
-                    <button class="btn-primary" onclick="createEvent()">
+                    <button class="btn-primary" onclick="handleCreateEvent()">
                         Crea Evento
                     </button>
                 </div>
