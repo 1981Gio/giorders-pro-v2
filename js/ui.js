@@ -42,7 +42,7 @@ function renderHome(app, data) {
                         data.events.length === 0
                         ? `<div class="empty">Nessun evento creato</div>`
                         : data.events.map((e,i)=>`
-                            <div class="list-item">
+                            <div class="list-item" onclick="handleOpenEvent(${event.id})">
                                 <div>
                                     <div class="list-title">${e.name}</div>
                                     <div class="list-sub">${e.type}</div>
