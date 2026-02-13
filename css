@@ -1,1 +1,89 @@
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
+body {
+  background: #f2f2f7;
+  color: #111;
+}
+
+/* ===== CONTAINER ===== */
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== CARD iOS STYLE ===== */
+.card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== TITOLI ===== */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+/* ===== INPUT ===== */
+.input-field {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid #e5e5ea;
+  font-size: 16px;
+  margin-bottom: 14px;
+  background: white;
+}
+
+/* ===== SELECT ===== */
+.select-field {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid #e5e5ea;
+  font-size: 16px;
+  margin-bottom: 14px;
+  background: white;
+}
+
+/* ===== BUTTONS ===== */
+.button {
+  border: none;
+  border-radius: 18px;
+  padding: 12px 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.button-primary {
+  background: #0a84ff;
+  color: white;
+}
+
+.button-primary:active {
+  transform: scale(0.97);
+}
+
+.button-secondary {
+  background: #e5e5ea;
+}
+
+.button-danger {
+  background: #ff3b30;
+  color: white;
+}
